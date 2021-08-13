@@ -15,7 +15,7 @@ let human = 'O';
 let currentPlayer = human;
 
 function setup() {
-  createCanvas(windowWidth-20,windowHeight-20);
+  createCanvas(800,800);
   w = width / 3;
   h = height / 3;
   bestMove();
